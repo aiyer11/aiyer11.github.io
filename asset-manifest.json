@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/aiyer11-github.io/static/css/main.536e89c0.css",
-    "main.js": "/aiyer11-github.io/static/js/main.0b7884e9.js",
-    "static/media/Profile.png": "/aiyer11-github.io/static/media/Profile.209e1f2e51ef76fc175b.png",
-    "static/media/Resume.pdf": "/aiyer11-github.io/static/media/Resume.5241ecaef7769e4afd27.pdf",
-    "static/media/logo.png": "/aiyer11-github.io/static/media/logo.6cc40137ba778810cb1f.png",
-    "static/media/background.jpg": "/aiyer11-github.io/static/media/background.3ae7feed2622cd8c3966.jpg",
-    "index.html": "/aiyer11-github.io/index.html",
-    "main.536e89c0.css.map": "/aiyer11-github.io/static/css/main.536e89c0.css.map",
-    "main.0b7884e9.js.map": "/aiyer11-github.io/static/js/main.0b7884e9.js.map"
+    "main.css": "/aiyer11.github.io/static/css/main.e31df72b.css",
+    "main.js": "/aiyer11.github.io/static/js/main.77a00a59.js",
+    "static/media/Profile.png": "/aiyer11.github.io/static/media/Profile.209e1f2e51ef76fc175b.png",
+    "static/media/Resume.pdf": "/aiyer11.github.io/static/media/Resume.5241ecaef7769e4afd27.pdf",
+    "static/media/logo.png": "/aiyer11.github.io/static/media/logo.6cc40137ba778810cb1f.png",
+    "static/media/background.jpg": "/aiyer11.github.io/static/media/background.3ae7feed2622cd8c3966.jpg",
+    "index.html": "/aiyer11.github.io/index.html",
+    "main.e31df72b.css.map": "/aiyer11.github.io/static/css/main.e31df72b.css.map",
+    "main.77a00a59.js.map": "/aiyer11.github.io/static/js/main.77a00a59.js.map"
   },
   "entrypoints": [
-    "static/css/main.536e89c0.css",
-    "static/js/main.0b7884e9.js"
+    "static/css/main.e31df72b.css",
+    "static/js/main.77a00a59.js"
   ]
 }
