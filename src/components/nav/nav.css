@@ -1,0 +1,29 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 1rem;
+  }
+.left{
+  width: 6rem;
+  height: 6rem;
+}
+
+.right{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1.2rem;
+}
+
+.right li {
+  margin-right: 1rem;
+}
+
+.right a {
+  color: #fff;
+  text-decoration: none;
+}
+

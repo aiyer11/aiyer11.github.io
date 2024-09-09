@@ -1,0 +1,50 @@
+
+.about_cards{
+
+    display: grid;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about_card{
+
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about_card:hover{
+
+    background: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
+}
+
+.about_icon{
+
+    color: var(--color-primary-variant);
+    font-size: 1.4rem;
+}
+
+.about_card h5{
+
+    font-size: 0.95rem;
+}
+
+.about_card small{
+
+    font-size: .7rem;
+    color: var(--color-light);
+}
+
+.about_content p{
+
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+

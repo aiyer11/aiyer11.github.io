@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
 *{
 
   margin: 0;
@@ -13,8 +14,8 @@
 
   --color-bg: #0d2056;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #0d23a1;
-  --color-primary-variant: rgba(50, 100, 186, 0.4);
+  --color-primary: #0d2da1;
+  --color-primary-variant: rgba(50, 141, 186, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.671);
 
@@ -27,22 +28,55 @@
 
 body{
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Reddit Sans Condensed';
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/background.jpg);
 }
 
-img{
+.container{
 
-  display: block;
-  width: 100%;
-  object-fit: cover;
+  width: var(--container-width-lg);
+  margin: 0 auto;  /*position in the middle horizontally */
+}
+
+h1, h2, h3, h4, h5{
+
+  font-weight: 500;
+}
+
+h1{
+
+  font-size: 2.5rem;
+}
+
+section{
+
+  margin-top: 8rem; /*Having some white space around different section*/
+  
+}
+
+section > h2, section > h5{
+
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h2{
+
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.text-light{
+
+  color: var(--color-light);
 }
 
 a{
-  color:var(--color-primary);
+
+  color: var(--color-primary);
   transition: var(--transition);
 }
 
@@ -53,7 +87,7 @@ a:hover{
 
 .btn{
 
-  width: max-content; 
+  width: max-content; /* fit exactly it's content */
   display: inline-block;
   color: var(--color-primary);
   padding: 0.75rem 1.2rem;
@@ -69,4 +103,18 @@ a:hover{
   color: var(--color-bg);
   border-color: transparent;
 }
+
+.btn-primary{
+
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+img{
+
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
 
