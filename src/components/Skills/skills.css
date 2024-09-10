@@ -3,6 +3,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -11,6 +13,8 @@
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
+    height: 35vh;
+    width: 40vh;
     border: 1px solid transparent;
     transition: var(--transition);
 }
