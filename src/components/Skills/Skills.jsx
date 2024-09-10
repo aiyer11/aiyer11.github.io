@@ -20,7 +20,7 @@ const Skills = () => {
                         </article>
                         <article className="skills_details">
                             <BsFillPatchCheckFill className="skills_details_icon"/>
-                            <h4>HTML</h4>
+                            <h4>HTML/CSS</h4>
                         </article>
                         <article className="skills_details">
                             <BsFillPatchCheckFill className="skills_details_icon"/>
