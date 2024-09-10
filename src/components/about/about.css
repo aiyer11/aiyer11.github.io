@@ -1,11 +1,11 @@
 
 .about_cards{
-
     display: grid;
-    grid-template-columns: repeat(3, 0.25fr);
+    grid-template-columns: repeat(3,23vh);
     justify-items: center;
     align-items: center;
     gap: 1.5rem;
+    justify-content: center;
 }
 
 .about_card{

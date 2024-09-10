@@ -1,10 +1,11 @@
 .skills_container{
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(2,40vh);
+    grid-template-rows: repeat(2,35vh);
     justify-items: center;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
 }
 
