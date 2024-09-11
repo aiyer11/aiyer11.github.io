@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/aiyer11.github.io/static/css/main.77c53582.css",
-    "main.js": "/aiyer11.github.io/static/js/main.124116cd.js",
+    "main.css": "/aiyer11.github.io/static/css/main.222abef7.css",
+    "main.js": "/aiyer11.github.io/static/js/main.01e1a253.js",
     "static/media/Profile.png": "/aiyer11.github.io/static/media/Profile.209e1f2e51ef76fc175b.png",
-    "static/media/background.jpg": "/aiyer11.github.io/static/media/background.9ea8e2d1315fb1ffa30b.jpg",
+    "static/media/project3.png": "/aiyer11.github.io/static/media/project3.951b460e646e175f391e.png",
+    "static/media/project2.png": "/aiyer11.github.io/static/media/project2.d500bb7c08811162a15d.png",
     "static/media/Resume.pdf": "/aiyer11.github.io/static/media/Resume.5241ecaef7769e4afd27.pdf",
     "static/media/logo.png": "/aiyer11.github.io/static/media/logo.6cc40137ba778810cb1f.png",
     "index.html": "/aiyer11.github.io/index.html",
-    "main.77c53582.css.map": "/aiyer11.github.io/static/css/main.77c53582.css.map",
-    "main.124116cd.js.map": "/aiyer11.github.io/static/js/main.124116cd.js.map"
+    "main.222abef7.css.map": "/aiyer11.github.io/static/css/main.222abef7.css.map",
+    "main.01e1a253.js.map": "/aiyer11.github.io/static/js/main.01e1a253.js.map"
   },
   "entrypoints": [
-    "static/css/main.77c53582.css",
-    "static/js/main.124116cd.js"
+    "static/css/main.222abef7.css",
+    "static/js/main.01e1a253.js"
   ]
 }
