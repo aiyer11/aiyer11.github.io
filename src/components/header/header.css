@@ -34,3 +34,34 @@ header {
 .react-icons {
     vertical-align: middle;
   }
+
+  /* Media queries for medium devices(Tablets) */
+
+@media screen and (max-width: 1024px) {
+
+    header{
+
+        height: 60vh;
+    }
+
+}
+
+/* Media queries for small devices(Mobiles) */
+
+@media screen and (max-width: 600px) {
+
+    header{
+
+        height: 100vh;
+    }
+
+    .socials, .scroll_down{
+
+        display: none;
+    }
+
+    .profilePicture > img{
+
+        margin-top: 2.5rem;
+    }
+}

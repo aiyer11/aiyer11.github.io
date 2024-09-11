@@ -26,6 +26,16 @@
   --transition: all 400ms ease;
 }
 
+html{
+
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+
+  display: none;
+}
+
 body{
 
   font-family: 'Reddit Sans Condensed';
@@ -38,7 +48,7 @@ body{
 .container{
 
   width: var(--container-width-lg);
-  margin: 0 auto;  /*position in the middle horizontally */
+  margin: 0 auto;  
 }
 
 h1, h2, h3, h4, h5{
@@ -53,7 +63,7 @@ h1{
 
 section{
 
-  margin-top: 5rem; /*Having some white space around different section*/
+  margin-top: 5rem;
   
 }
 
@@ -87,7 +97,7 @@ a:hover{
 
 .btn{
 
-  width: max-content; /* fit exactly it's content */
+  width: max-content; 
   display: inline-block;
   color: var(--color-primary);
   padding: 0.75rem 1.2rem;
@@ -115,6 +125,36 @@ img{
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .container{
+
+      width: var(--container-width-md);
+  }
+
+  section{
+
+      margin-top: 6rem;
+  }
+  
+}
+
+/* Media queries for small devices(Mobiles) */
+
+@media screen and (max-width: 600px) {
+
+  .container{
+
+      width: var(--container-width-sm);
+  }
+
+  section > h2{
+
+      margin-bottom: 2rem;
+  }
+  
 }
 
 

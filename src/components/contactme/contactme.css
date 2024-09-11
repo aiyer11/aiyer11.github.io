@@ -1,4 +1,4 @@
-.container.contact__container{
+.container.contact_container{
 
     width: 58%;
     display: grid;
@@ -22,4 +22,27 @@ input, textarea{
     border: 2px solid var(--color-primary);
     resize: none; /* avoid text area being resized */
     color: var(--color-white);
+}
+
+/* Media queries for medium devices(Tablets) */
+
+@media screen and (max-width: 1024px) {
+
+    .container.contact_container{
+
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+
+}
+
+/* Media queries for small devices(Mobiles) */
+
+@media screen and (max-width: 600px) {
+
+    .container.contact_container{
+
+        width: var(--container-width-sm);
+    }
 }

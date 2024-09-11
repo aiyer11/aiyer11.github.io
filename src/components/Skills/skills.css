@@ -53,3 +53,39 @@
     margin-top: 6px;
     color: var(--color-primary-variant);
 }
+@media screen and (max-width: 1024px) {
+
+    .skills_container{
+
+        grid-template-columns: 1fr;
+    }
+
+    .skills_container > div{
+
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .skills_content{
+
+        padding: 1rem;
+    }
+
+}
+
+/* Media queries for small devices(Mobiles) */
+
+@media screen and (max-width: 600px) {
+
+    .skills_container{
+
+        gap: 1rem;
+    }
+
+    .skills_container > div{
+
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
