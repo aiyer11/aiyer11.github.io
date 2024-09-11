@@ -1,5 +1,5 @@
 import React from "react";
-import profilePicture from '../../assets/Profile.png'
+import profilePicture from '../../assets/Profile.png';
 import SocialAndResume from "./SocialAndResume";
 import './header.css';
 

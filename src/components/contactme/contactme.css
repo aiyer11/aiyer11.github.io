@@ -1,0 +1,25 @@
+.container.contact__container{
+
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea{
+
+    width: 50%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    resize: none; /* avoid text area being resized */
+    color: var(--color-white);
+}

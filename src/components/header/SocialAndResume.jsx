@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
-import Resume from '../../assets/Resume.pdf'
+import Resume from '../../assets/Resume.pdf';
 import { IconContext } from 'react-icons';
 
 const SocialAndResume = () => {
