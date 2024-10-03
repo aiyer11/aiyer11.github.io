@@ -39,7 +39,7 @@ header {
 
 @media screen and (max-width: 1024px) {
 
-    header{
+    .header{
 
         height: 60vh;
     }
@@ -50,17 +50,12 @@ header {
 
 @media screen and (max-width: 600px) {
 
-    header{
+    .header{
 
         height: 100vh;
     }
 
-    .socials, .scroll_down{
-
-        display: none;
-    }
-
-    .profilePicture > img{
+    .profilePicture > .img{
 
         margin-top: 2.5rem;
     }

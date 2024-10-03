@@ -53,13 +53,13 @@
 /* Media queries for medium devices(Tablets) */
 
 @media screen and (max-width: 1024px) {
-    .about__me{
+    .about{
 
         width: 50%;
         margin: 2rem auto 4rem;
     }
 
-    .about__content p{
+    .about_content p{
 
         margin: 1rem 0 1.5rem;
     }
@@ -71,24 +71,24 @@
 
 @media screen and (max-width: 600px) {
 
-    .about__me{
+    .about{
 
         width: 65%;
         margin: 0 auto 3rem;
     }
 
-    .about__cards{
+    .about_cards{
 
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 
-    .about__content{
+    .about_content{
 
         text-align: center;
     }
 
-    .about__content p{
+    .about_content p{
 
         margin: 1.5rem 0;
     }
